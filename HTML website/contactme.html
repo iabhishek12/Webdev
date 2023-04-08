@@ -12,5 +12,47 @@
     <p>abhishek@gmail.com</p>
     <p>7473984938</p>
     
+
+
+<!-- Forms in HTML -->
+<!-- action is basically to redirect the user after clicking the submit or filling the form  -->
+<!-- action: - mailto: info@mail.com   (redirect the user to this mail address)-->
+<!-- method="post"(means we are going to transfer the info of user filled into our form) -->
+    <form action="mailto: abhishekbohra1208@gmail.com" method="post">
+        <label for="">Your name: 
+            <input type="text" name="yourName">  <!-- taking input from the user -->
+            <input type="color"> <!-- color picker--> 
+            <br>
+
+            <!-- we use name="" attribute specifies the name of our <input> element  -->
+
+            <!-- PASSWORD INPUT IN FORMS -->
+            <label for="">Password : </label>
+            <input type="password" name="yourPassword">
+            <br>
+
+            <!--CHECKBOX FORMS--> 
+            <label for="">Do you want to signup for email list? </label>
+            <input type="checkbox">
+            <br>
+            <!-- Radio button -->
+            <label for="">Radio tag</label>
+            <input type="radio">
+            <br>
+            <!-- range picker -->
+            <label for="">range picker</label>
+            <input type="range">
+            <br>
+            <!-- date -->
+            <label for="">date picker</label>
+            <input type="date">
+            <br>
+            <!-- text area -->
+            <label for="">Enter you message : </label><br>
+            <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit"> <!--submit buttion in html forms-->
+        </label>
+    </form>
 </body>
 </html>
