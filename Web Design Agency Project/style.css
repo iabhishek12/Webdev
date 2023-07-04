@@ -7,7 +7,7 @@ body {
   min-height: 95vh;
 }
 .main {
-  flex: 1;
+  flex: 1; 
 }
 
 h1 {
@@ -38,7 +38,8 @@ footer {
   float: right;
 }
 .creative {
-  color: midnightblue;
+  color: midnightblue; 
+  
 }
 
 
