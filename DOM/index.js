@@ -1,1 +1,1 @@
-alert("Hello abhishek"); 
+document.querySelector
