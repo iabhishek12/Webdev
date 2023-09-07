@@ -55,10 +55,11 @@ for(i = 0 ; i < numberofitems; i++) {
     document.addEventListener("keypress",function(event) {
         makesound(event.key); 
 
-       buttonanimation(event.key); 
+       buttonanimation(event.currentkey); 
 
     })
-
+    
+    
     
 
     // sound for click and soundpress 
@@ -94,6 +95,7 @@ for(i = 0 ; i < numberofitems; i++) {
                 var audio = new Audio('sounds/kick-bass.mp3'); 
                 audio.play();
                 break; 
+
     
                 case "l": 
                 var audio = new Audio('sounds/crash.mp3'); 
@@ -120,3 +122,4 @@ for(i = 0 ; i < numberofitems; i++) {
 
 
 }
+

@@ -1,1 +1,1 @@
-document.querySelector
+// document.querySelectorAll("list").innerHTML
